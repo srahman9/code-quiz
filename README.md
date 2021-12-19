@@ -8,5 +8,5 @@ At the end of the quiz the player will need to input their initial and submit th
 
 How to access Code Quiz:
 
-- Use the following website URL to access the code quiz: 
+- Use the following website URL to access the code quiz: https://srahman9.github.io/code-quiz/
 - Use the following GitHub URL to access the code quiz repo:
