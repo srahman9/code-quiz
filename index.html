@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="./assets/css/style.css" />
+    <script defer src="assets/js/script.js"></script>
+    <title>Code Quiz</title>
+  </head>
+  <body>
+    <div class="container">
+      <div id="quizArea">
+        <div>
+          <div class="countdown">
+            <div class="container-second">
+              <h1>Code Quiz</h1>
+              <p>
+                Try to answer the following questions within the time limit.
+                Know that incorrect answers will decrease your score time.
+                Correct Answer will be green and incorrect answer will be red.
+              </p>
+              <h5 class="second"></h5>
+            </div>
+          </div>
+        </div>
+        <div>
+          <div class="score">
+            <div class="score-counter">
+              <h3 class="player-score"></h3>
+            </div>
+          </div>
+        </div>
+        <div id="question-container" class="hide">
+          <div id="question">Question</div>
+          <div id="answer-buttons" class="btn-grid">
+            <button class="btn">Answer 1</button>
+            <button class="btn">Answer 2</button>
+            <button class="btn">Answer 3</button>
+            <button class="btn">Answer 4</button>
+          </div>
+        </div>
+        <div class="controls">
+          <button id="start-btn" class="start-btn btn">Start</button>
+          <button id="next-btn" class="next-btn btn hide">Next</button>
+          <a
+            href="/highscores.html"
+            id="highscore-btn"
+            class="highscore-btn btn"
+            >High Score</a
+          >
+        </div>
+      </div>
+      <div id="endGame">
+        <p>
+          Final Score:
+          <span id="finalScore"></span>
+        </p>
+        <p>
+          Enter Initials:
+          <input typer="text" id="initialsInput" />
+        </p>
+        <button id="submitIn">Submit</button>
+      </div>
+    </div>
+  </body>
+</html>
